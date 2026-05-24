@@ -1,4 +1,3 @@
-````md
 # Katalon Automation Testing
 
 ![Katalon](https://img.shields.io/badge/Katalon_Studio-10.x-00c7b7?style=for-the-badge&logo=katalon&logoColor=white)
@@ -19,6 +18,7 @@ End-to-end automation testing framework built with **Katalon Studio**, **Groovy*
 - [Running Tests](#running-tests)
 - [Test Report](#test-report)
 - [Test Suites](#test-suites)
+- [CI/CD Pipeline](#cicd-pipeline)
 
 ---
 
@@ -74,6 +74,7 @@ https://www.demoblaze.com
 | [Katalon Studio](https://katalon.com/) | Automation testing framework |
 | [Groovy](https://groovy-lang.org/) | Programming language |
 | [Selenium WebDriver](https://www.selenium.dev/) | Browser automation |
+| [GitHub Actions](https://github.com/features/actions) | CI/CD pipeline |
 
 ---
 
@@ -211,6 +212,23 @@ Example:
 common.takeScreenshot('TC_Login_PASS')
 ```
 
+---
+
+# CI/CD Pipeline
+
+This project is designed to support CI/CD integration using:
+
+- GitHub Actions
+- Jenkins
+
+Example workflow:
+- Trigger test execution on push
+- Run regression suite automatically
+- Generate HTML reports
+- Upload reports as artifacts
+
+---
+
 # Author
 
 **Hafidh Syahputra**  
@@ -218,4 +236,3 @@ QA Engineer
 
 GitHub:  
 https://github.com/hast99
-````
