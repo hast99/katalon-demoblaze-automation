@@ -4,3 +4,4 @@ Reports/
 .settings/
 Drivers/
 tmp/
+.cache/
